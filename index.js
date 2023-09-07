@@ -5,7 +5,7 @@ let NivelDoHeroi = "Ouro";
 let NomeDoHeroi = "Denvil";
 let XpDoHeroi = 6999;
 
-switch (true){
+switch (XpDoHeroitrue){
     case XpDoHeroi < 1000: 
         NivelDoHeroi = "Ferro ";
         break;
@@ -29,8 +29,5 @@ switch (true){
         break;
     default:
     NivelDoHeroi = "Radiante";
-    break;
-     
-    
-// Saida
-console.log('O Heroi de nome'{NomeDoHeroi} 'esta no nivel de'{NivelDoHeroi});
+    console.log ("O Heroi de nome" {NomeDoHeroi} "esta no nivel" {NivelDoHeroi});
+}
