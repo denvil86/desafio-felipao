@@ -1,7 +1,7 @@
 //iniciar projeto
 console.log ("vamos começar");
 //variaveis
-let NivelDoHeroi
+let NivelDoHeroi;
 const NomeDoHeroi = "Denvil";
 const XpDoHeroi = 6999;
 
@@ -13,3 +13,6 @@ else if (XpDoHeroi >= 7001 && XpDoHeroi <= 8000) {NivelDoHeroi = "Platina"};
 else if (XpDoHeroi >= 8001 && XpDoHeroi <= 9000) {NivelDoHeroi = "Ascendente"};
 else if (XpDoHeroi >= 9001 && XpDoHeroi <= 10000) {NivelDoHeroi = "Imortal"};
 else {NivelDoHeroi = "Radiante"};
+
+// Saida
+console.log('O Heroi de nome'{NomeDoHeroi} 'esta no nivel de'{NivelDoHeroi});
