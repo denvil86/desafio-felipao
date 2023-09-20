@@ -1,33 +1,24 @@
-//iniciar projeto
-console.log ("vamos começar");
 //variaveis
 let NivelDoHeroi = "Ouro";
 let NomeDoHeroi = "Denvil";
 let XpDoHeroi = 6999;
 
-switch (XpDoHeroitrue){
-    case XpDoHeroi < 1000: 
-        NivelDoHeroi = "Ferro ";
-        break;
-    case XpDoHeroi >= 1001 && XpDoHeroi <= 2000:
-        NivelDoHeroi = "Bronze";
-        break;
-    case XpDoHeroi >= 2001 && XpDoHeroi <= 5000:
-        NivelDoHeroi = "Prata";
-        break;
-    case XpDoHeroi >= 6001 && XpDoHeroi <= 7000:
-        NivelDoHeroi = "Ouro";
-        break;
-    case XpDoHeroi >= 7001 && XpDoHeroi <= 8000:
-        NivelDoHeroi = "Platina";
-        break;
-    case XpDoHeroi >= 8001 && XpDoHeroi <= 9000:
-        NivelDoHeroi = "Ascendente";
-        break;
-    case XpDoHeroi >= 9001 && XpDoHeroi <= 10000:
-    NivelDoHeroi = "Imortal";
-        break;
-    default:
-    NivelDoHeroi = "Radiante";
-    console.log ("O Heroi de nome" {NomeDoHeroi} "esta no nivel" {NivelDoHeroi});
+if (XpDoHeroi < 1000) {
+    console.log(NivelDoHeroi = "Ferro ");
+} else if (XpDoHeroi >= 1001 && XpDoHeroi <= 2000) {
+    console.log(NivelDoHeroi = "Bronze");
+} else if (XpDoHeroi >= 2001 && XpDoHeroi <= 5000) {
+    console.log(NivelDoHeroi = "Prata");
+} else if (XpDoHeroi >= 6001 && XpDoHeroi <= 7000) {
+    console.log(NivelDoHeroi = "Ouro")
+} else if (XpDoHeroi >= 7001 && XpDoHeroi <= 8000) {
+    console.log(NivelDoHeroi = "Platina")
+} else if (XpDoHeroi >= 8001 && XpDoHeroi <= 9000) {
+    console.log(NivelDoHeroi = "Ascendente")
+} else if (XpDoHeroi >= 9001 && XpDoHeroi <= 10000) {
+    console.log(NivelDoHeroi = "Imortal")
+} else {
+    console.log(NivelDoHeroi = "Radiante")
 }
+
+console.log("O Heroi de nome ", (NomeDoHeroi), "esta no nivel ", (NivelDoHeroi));
